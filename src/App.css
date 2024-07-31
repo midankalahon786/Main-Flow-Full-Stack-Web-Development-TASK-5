@@ -1,0 +1,51 @@
+nav ul
+{
+  display: flex;
+  background-color: antiquewhite;
+  padding:1.5em;
+  margin:0;
+}
+nav ul li
+{
+  list-style: none;
+  margin-right: 20px;
+  font-size:1em;
+  font-weight: bold;
+}
+nav ul li:nth-child(1)
+{
+  margin-right: auto;
+  font-size:1.5em;
+}
+nav 
+{
+  position: static;
+}
+input
+{
+  margin-left:auto;
+  margin-right:1em;
+  border-radius:1em;
+  border: 5px solid antiquewhite;
+}
+button
+{
+  background-color: antiquewhite;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: bold;
+}
+button:hover
+{
+  background-color: lightgray;
+}
+.body-item
+{
+  display:grid;
+
+  grid-gap: 1em;
+  padding: 1em;
+
+}
